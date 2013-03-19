@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"    
+    tools:context=".SubMenuActivity" >
+    
+    <FrameLayout android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/title_bar"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+        <ImageButton android:id="@+id/menu_back"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:background="@drawable/menu_back"
+         />
+        <ImageView android:id="@+id/menu_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          
+           />
+    </FrameLayout>
+    
+    <WebView android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+               
+        />
+
+</LinearLayout>
